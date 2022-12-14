@@ -28,6 +28,7 @@
   --button-hero-tc: #ffffff;
   --button-hero-active: #404bbf;
   --border-button-shadow: #e5e5e5;
+  --social-footer-bg-color: rgba(255, 255, 255, 0.1);
 }
 
 /* toot font size */
@@ -316,6 +317,7 @@ header .container {
 .section-teem-workers {
   background-color: var(--clode);
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .teem-workers {
@@ -333,23 +335,28 @@ header .container {
   line-height: 1.1;
 }
 
+.social-network-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 12px;
+
+}
 .social-network {
-display: flex;
-gap: 24px;
-width: 40px;
-height: 40px;
-border-radius: 50%;
-justify-content: center;
-align-items: center;
-background-color: var(--irish);
-cursor: pointer;
-  /* flex-basis: calc((100% - 72px) / 4); */
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--irish);
+  cursor: pointer;
 }
 
 .workers-data-icon {
   width: 16px;
   height: 16px;
-  background-color: red;
+  background-color: var(--irish);
 }
 
 .workers-bg-color {
@@ -378,7 +385,8 @@ cursor: pointer;
 }
 
 /* Customers */
-.customers {
+
+.section-customers {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -388,7 +396,8 @@ cursor: pointer;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
-  }
+  padding-bottom: 72px;
+}
 
 .customers-list {
   display: flex;
@@ -533,14 +542,39 @@ cursor: pointer;
 }
 
 .social-media-text {
-font-family: var(--Primary-font) sans-serif;
-color: var(--body-bg-color);
-font-weight: 600;
-font-size: 16px;
-line-height: 1.5;
-
+  font-family: var(--Primary-font) sans-serif;
+  color: var(--body-bg-color);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
 }
-
+.social-media-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
 .social-media-footer {
-  
+  width: 40px;
+  height: 40px;
+  background-color: var(--social-footer-bg-color);
+  border-radius: 50%;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
 }
+
+.social-media-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.social-media-footer:hover,
+.social-media-footer:focus {
+  background-color: var(--success);
+}
+
+.end-page > .container {
+  display: flex;
+  gap: 120px;
+  }
