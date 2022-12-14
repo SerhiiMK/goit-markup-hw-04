@@ -335,12 +335,11 @@ header .container {
   line-height: 1.1;
 }
 
-.social-network-list{
+.social-network-list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
   margin-top: 12px;
-
 }
 .social-network {
   display: flex;
@@ -552,6 +551,7 @@ header .container {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  margin-top: 16px;
 }
 .social-media-footer {
   width: 40px;
@@ -577,4 +577,4 @@ header .container {
 .end-page > .container {
   display: flex;
   gap: 120px;
-  }
+}
