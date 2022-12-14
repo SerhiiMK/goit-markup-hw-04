@@ -371,6 +371,13 @@ header .container {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.customers {
+  color: var(--navyblue);
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  }
 
 .customers-list {
   display: flex;
@@ -382,7 +389,6 @@ header .container {
   width: 168px;
   height: 88px;
   fill: var(--clode);
-  background-color: var(--clode);
   border: 1px solid var(--lightsate);
   border-radius: 4px;
   display: flex;
@@ -397,6 +403,18 @@ header .container {
 .customers-list-icon-svg {
   width: 104px;
   height: 56px;
+  fill: var(--lightsate);
+}
+
+.customers-list-icon:hover,
+.customers-list-icon:focus {
+  /* fill: var(--irish) */
+  cursor: pointer;
+  border-color: var(--irish);
+}
+
+.customers-list-icon-svg:hover {
+  fill: var(--irish);
 }
 
 /* portfolio */
