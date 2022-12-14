@@ -272,14 +272,11 @@ header .container {
   justify-content: center;
   align-items: center;
   border-radius: 4px;
-
 }
 
 .advantages-icon-svg {
   width: 64px;
   height: 64px;
-
-
 }
 
 .advantages-item .item {
@@ -289,7 +286,6 @@ header .container {
 .advantages-icon-svg {
   width: 64px;
   height: 64px;
-  
 }
 /* job-profile */
 
@@ -315,10 +311,11 @@ header .container {
   flex-basis: calc((100% - 48px) / 3);
 }
 
+/* Our Team */
+
 .section-teem-workers {
   background-color: var(--clode);
   padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .teem-workers {
@@ -336,10 +333,23 @@ header .container {
   line-height: 1.1;
 }
 
+.social-network {
+display: flex;
+gap: 24px;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+justify-content: center;
+align-items: center;
+background-color: var(--irish);
+cursor: pointer;
+  /* flex-basis: calc((100% - 72px) / 4); */
+}
+
 .workers-data-icon {
   width: 16px;
   height: 16px;
-  background-color: tomato;
+  background-color: red;
 }
 
 .workers-bg-color {
@@ -360,6 +370,7 @@ header .container {
   padding: 32px 16px;
   text-align: center;
 }
+
 .teem-workers-flex {
   display: flex;
   gap: 24px;
@@ -388,7 +399,6 @@ header .container {
 .customers-list-icon {
   width: 168px;
   height: 88px;
-  fill: var(--clode);
   border: 1px solid var(--lightsate);
   border-radius: 4px;
   display: flex;
@@ -408,13 +418,15 @@ header .container {
 
 .customers-list-icon:hover,
 .customers-list-icon:focus {
-  /* fill: var(--irish) */
   cursor: pointer;
   border-color: var(--irish);
 }
 
-.customers-list-icon-svg:hover {
+.customers-list-icon-svg:hover,
+.customers-list-icon-svg:focus {
   fill: var(--irish);
+  cursor: pointer;
+  border-color: var(--irish);
 }
 
 /* portfolio */
@@ -518,4 +530,17 @@ header .container {
   line-height: 1.2;
   margin-top: 16px;
   max-width: 264px;
+}
+
+.social-media-text {
+font-family: var(--Primary-font) sans-serif;
+color: var(--body-bg-color);
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+
+}
+
+.social-media-footer {
+  
 }
