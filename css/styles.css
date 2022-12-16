@@ -427,16 +427,29 @@ header .container {
 
 .customers-list-icon:hover,
 .customers-list-icon:focus {
-  cursor: pointer;
   border-color: var(--irish);
 }
 
 .customers-list-icon-svg:hover,
 .customers-list-icon-svg:focus {
-  fill: var(--irish);
-  cursor: pointer;
   border-color: var(--irish);
 }
+
+
+/* .customers-list-icon-link {
+  color: var(--lightsate); border: 1px solid var(--lightsate);
+}
+
+.customers-list-icon-link:hover,
+.customers-list-icon-link:focus {
+  color: var(--irish); border: 1px solid var(--irish);
+  cursor: pointer;
+} */
+
+/* a { color: grey; border: 1px solid grey;}
+a:hover, a:focus { color: violet; border: 1px solid violet;}
+icon {fill: currentColor; }
+ */
 
 /* portfolio */
 
