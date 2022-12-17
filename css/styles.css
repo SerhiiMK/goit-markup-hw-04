@@ -405,16 +405,6 @@ header .container {
   gap: 24px;
 }
 
-.customers-list-icon {
-  width: 168px;
-  height: 88px;
-  border: 1px solid var(--lightsate);
-  border-radius: 4px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .customers-list .item {
   flex-basis: calc((100% - 120px) / 6);
 }
@@ -422,36 +412,28 @@ header .container {
 .customers-list-icon-svg {
   width: 104px;
   height: 56px;
-  fill: var(--lightsate);
 }
 
-.customers-list-icon:hover,
-.customers-list-icon:focus {
-  border-color: var(--irish);
-}
-
-.customers-list-icon-svg:hover,
-.customers-list-icon-svg:focus {
-  border-color: var(--irish);
-}
-
-
-/* .customers-list-icon-link {
-  color: var(--lightsate); border: 1px solid var(--lightsate);
+.customers-list-icon-link {
+  width: 168px;
+  height: 88px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--lightsate);
+  border: 1px solid var(--lightsate);
 }
 
 .customers-list-icon-link:hover,
-.customers-list-icon-link:focus {
-  color: var(--irish); border: 1px solid var(--irish);
-  cursor: pointer;
-} */
+.customers-list-icon-link:hover {
+  color: var(--irish);
+  border: 1px solid var(--irish);
+}
 
-/* a { color: grey; border: 1px solid grey;}
-a:hover, a:focus { color: violet; border: 1px solid violet;}
-icon {fill: currentColor; }
- */
-
-/* portfolio */
+.customers-list-icon-svg {
+  fill: currentColor;
+}
 
 .portfolio-style {
   padding-top: 96px;
